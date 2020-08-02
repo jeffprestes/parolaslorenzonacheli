@@ -1,0 +1,102 @@
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: darkred;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../imagens/alfa_omega_small.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  color: antiquewhite;
+  font-family: 'Domine', serif;
+  font-size: x-large;
+}
+
+section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  max-width: 90%;
+}
+.titulo {
+  background-color: rgba(200, 100, 100, 50);
+  padding: 5px;
+}
+.carta {
+  width: 90vw;
+  margin: auto;
+  background-color: white;
+}
+
+.cartaData {
+  text-align: right;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  padding-right: 2vw;
+}
+
+.cartasContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: darkred;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cartaColuna {
+  width: 80%;
+  padding: 20px;
+}
+
+.cartaColunaImg {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cartaPrimeiroParagImgDireita {
+  display: flex;
+}
+
+.cartaPrimeiroParagImgEsquerda {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .cartasContainer { 
+    width: 95vw;
+  }
+
+  .cartaColuna {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .cartaPrimeiroParagImgEsquerda {
+    flex-wrap: wrap;
+  }
+}
