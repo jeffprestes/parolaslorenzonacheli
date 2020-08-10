@@ -101,4 +101,8 @@ img {
   .cartaPrimeiroParagImgEsquerda {
     flex-wrap: wrap;
   }
+
+  .cartaPrimeiroParagImgDireita {
+    flex-wrap: wrap;
+  }
 }
